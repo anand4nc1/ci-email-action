@@ -5,4 +5,4 @@ runs:
   image: 'Dockerfile'
 branding:
   icon: 'x'
-  color: 'red'
+  color: 'red' 
