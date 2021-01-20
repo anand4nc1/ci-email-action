@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Hello World
+      - name: Hello World program
         run: echo Hello, world!
       - name: Send mail
         if: always()
