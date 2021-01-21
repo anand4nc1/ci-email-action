@@ -1,8 +1,8 @@
-name: 'CI Email Notification'
+name: 'CI Email Notification for github'
 description: 'Send email via SMTP on failed CI check_suite'
 runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
   icon: 'x'
-  color: 'red'
+  color: 'red' 
