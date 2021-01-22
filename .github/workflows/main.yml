@@ -22,15 +22,17 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           # user credentials
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
+         # username: ${{ secrets.EMAIL_USERNAME }}
+          #password: ${{ secrets.EMAIL_PASSWORD }}
+          username: ananda.r@publicissapient.com
+          password: Srikalasa@1
           # email subject 
           subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
           # email body as text
           body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
           # comma-separated string, send email to
-          to: ananda.r@publicissapient.com
+          to: Waters_SAAS_devops_Team_PBS_TEAM_IND@groups.publicisgroupe.net
 
           # from email name
-          from: anand4nc@gmail.com
-          cc: Waters_SAAS_devops_Team_PBS_TEAM_IND@groups.publicisgroupe.net
+          from: ananda.r@publicissapient.com
+          
