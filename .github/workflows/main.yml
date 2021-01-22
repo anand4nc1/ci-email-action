@@ -23,15 +23,16 @@ jobs:
           # optional, default is smtp.office365.com
           smtp-server: smtp.office365.com
           # smtp server port
-          smtp-server-port: 587
+          smtp-server-port: 25
         # auth user
           auth-user: anar1@publicissapient.net
         # auth password
           auth-password: Srikalasa@1
         # mail subject
-          subject: build is sucessfull.
+          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
         # The message to be sended
-          body: build message
+          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+    # comma-separated string, send email to
         # where is the message from
           from: ananda.r@publicissapient.com 
           # Who to send
