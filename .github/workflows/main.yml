@@ -25,16 +25,17 @@ jobs:
           # smtp server port
           smtp-server-port: 587
         # auth user
-          auth-user: anand4nc@gmail.com
+          auth-user: anar1@publicissapient.net
         # auth password
-          auth-password: Anandanand@1
+          auth-password: Srikalasa@1
         # mail subject
           subject: build is sucessfull.
         # The message to be sended
           body: build message
         # where is the message from
-          from: anand4nc@gmail.com
-        # Who to send
-          to: ananda.r@publicissapient.com
+          from: ananda.r@publicissapient.com 
+          # Who to send
+          to: anand4nc@gmail.com
+ 
    
           
