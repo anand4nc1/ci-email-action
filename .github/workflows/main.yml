@@ -24,7 +24,7 @@ jobs:
           # user credentials
          # username: ${{ secrets.EMAIL_USERNAME }}
           #password: ${{ secrets.EMAIL_PASSWORD }}
-          username: ananda.r@publicissapient.com
+          username: anar1@publicisgroupe.net
           password: Srikalasa@1
           # email subject 
           subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
