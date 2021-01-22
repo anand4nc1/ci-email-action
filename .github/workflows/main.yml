@@ -25,7 +25,7 @@ jobs:
           # smtp server port
           smtp-server-port: 587
         # auth user
-          auth-user: anar1@publicissapient.net
+          auth-user: ananda.r@publicissapient.com
         # auth password
           auth-password: Srikalasa@1
         # mail subject
@@ -33,7 +33,7 @@ jobs:
         # The message to be sended
           body: build message
         # where is the message from
-          from: anar1@publicissapient.net
+          from: ananda.r@publicissapient.com
         # Who to send
           to: Waters_SAAS_devops_Team_PBS_TEAM_IND@groups.publicisgroupe.net
    
