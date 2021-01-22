@@ -33,7 +33,7 @@ jobs:
         # The message to be sended
           body: build message
         # where is the message from
-          from: ananda.r@publicissapient.com
+          from: anar1@publicissapient.net
         # Who to send
           to: Waters_SAAS_devops_Team_PBS_TEAM_IND@groups.publicisgroupe.net
    
